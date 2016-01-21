@@ -1,0 +1,388 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.625em;
+}
+
+body {
+  background-color: #f0efef;
+}
+
+.header-bg {
+  width: 100%;
+  background: url(images/relaxr_header.jpg) no-repeat top center / cover #033048;
+}
+
+.header-navigation {
+  width: 1024px;
+  margin: auto;
+  align-content: center;
+  position: relative;
+  height: 120px;
+  display: flex;
+  flex-flow: row;
+}
+
+.logo-box {
+  border-color: black;
+  flex: 30%;
+  order: 1;
+}
+
+.nav-box {
+  border-color: red;
+  flex: 70%;
+  order: 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+.blog-logo {
+  line-height: 120px;
+}
+
+.post-title {
+  margin: 50px 20px 20px 0px;
+  color: #033048;
+  font-size: 4em;
+  font-weight: 600;
+}
+
+#nav-button {
+  color: #f9e42e;
+  line-height: 120px;
+  font-size: 2.4em;
+  font-weight: 400;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+#nav-button:hover {
+  color: #ffffff;
+}
+
+#nav-button:active {
+  color: #d9c407;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+.post {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f0efef;
+  width: 700px;
+}
+
+.blog-content {
+  border-bottom: 1px solid #033048;
+  margin-bottom: 40px;
+}
+
+.firstcharacter {
+  float: left;
+  color: #606161;
+  font-size: 4em;
+  font-weight: 600;
+  line-height: 60px;
+  padding: 10px 8px 0 3px;
+}
+
+.description, .description-hide-1, .description-hide-2  {
+  line-height: 30px;
+  padding-top: 20px;
+  font-size: 2.4em;
+  font-weight: 300;
+  color: #606161
+}
+
+a {
+  text-decoration: none;
+}
+
+.read-btn-1, .read-btn-2, .readless-btn-1, .readless-btn-2 {
+  text-align: right;
+  margin: 30px 0 30px 0;
+}
+
+.read-btn-1 a, .read-btn-2 a, .readless-btn-1 a, .readless-btn-2 a {
+  font-size: 2.4em;
+  font-weight: 600;
+  color: #033048;
+}
+
+/*.read-btn-1 a, .read-btn-2 a, .readless-btn-1 a, .readless-btn-2 a:hover {
+  color: #1285c3;
+}
+
+.read-btn-1 a, .read-btn-2 a, .readless-btn-1 a, .readless-btn-2 a:active {
+  color: #0e5277;
+}*/
+
+hr {
+  color: #033048;
+}
+
+.line-bottom {
+  color: #033048;
+  margin-bottom: 40px;
+}
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f0efef;
+  margin-left: 20px;
+  width: 240px;
+}
+
+.side-title {
+  margin: 50px 0 20px 0;
+  font-size: 3.2em;
+  font-weight: 800;
+  color: #033048;
+}
+
+#side-btn li a {
+  font-size: 2.4em;
+  font-weight: 300;
+  color: #033048;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+#side-btn li a:hover {
+  color: #1285c3;
+}
+
+#side-btn li a:active {
+  color: #0e5277;
+}
+
+.about-side {
+  font-size: 2.2em;
+  font-weight: 300;
+  color: #033048;
+  line-height: 25px;
+}
+
+#learnmoretext {
+  font-size: 2.2em;
+  font-weight: 300;
+  color: #033048;
+  line-height: 25px;
+}
+
+.learn-btn {
+  margin: 5px 0 50px 0;
+}
+
+.learn-btn a {
+  font-size: 2.2em;
+  font-weight: 600;
+  color: #033048;
+}
+
+.learn-btn a:hover {
+  cursor: pointer;
+  color: #1285c3;
+}
+
+.learn-btn a:active {
+  cursor: pointer;
+  color: #0e5277;
+}
+
+.description-hide-1, .description-hide-2, .readless-btn-1, .readless-btn-2, .about-side-hide {
+  display: none;
+}
+
+/*Landing page*/
+
+.landing-logo {
+  padding: 50px 0px 0px 50px;
+}
+
+.benefit-title {
+  color: #033048;
+  padding: 50px 0 20px 30px;
+  font-size: 4em;
+  font-weight: 600;
+}
+
+.author {
+  color: white;
+  font-size: 3em;
+  font-weight: 600;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.benefits-list {
+  color: #606161;
+  font-size: 2.2em;
+  font-weight: 300;
+  line-height: 30px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  list-style-type: disc;
+}
+
+blockquote {
+  color: white;
+  font-size: 3em;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 35px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.myButton {
+  width: 90px;
+  height: 16px;
+	background-color:#f9e42e;
+	border-radius:5px;
+	color:#000000;
+	font-size: 1.5em;
+	font-weight:800;
+	padding:16px 30px;
+	text-decoration:none;
+  text-align: center;
+  display: block;
+  margin: 50px auto 200px auto;
+}
+.myButton:hover {
+	background-color:#f2d709;
+}
+.myButton:active {
+	position:relative;
+}
+
+.relaxr-bg {
+  height: 700px;
+  background: url(images/relaxr_header.jpg) no-repeat top center / cover #033048;
+  position: relative;
+}
+
+.overlay-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.simple-centered-text {
+  text-align: center;
+  color: white;
+  font-size: 5em;
+  font-weight: 600;
+  padding-top: 200px;
+  margin: 0 50px 0 50px;
+}
+
+.box_benefits {
+  margin: 0 30px 0 35px;
+}
+
+.benefits {
+  color: #606161;
+  padding: 0 0 20px 30px;
+  font-size: 2.4em;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.testimonial-bg {
+  height: 394px;
+  background: url(images/testimonial_bg.jpg) no-repeat top center / cover #033048;
+  position: relative;
+}
+
+.yellow_bg {
+  width: 100%;
+  height:48px;
+  background-color: #f9e42e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.signUp_btn {
+  width: 150px;
+  height: 16px;
+	background-color:#033048;
+	border-radius:5px;
+	color: white;
+	font-size: 2em;
+	font-weight:800;
+	padding:16px 30px;
+	text-decoration:none;
+  text-align: center;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0px auto 0px auto;
+}
+
+.signUp_btn:hover {
+	background-color:#0e5277;
+}
+
+.signUp_btn:active {
+	position:relative;
+}
+
+.black-bg {
+  width: 100%;
+  height:120px;
+  background-color: #121212;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer_relaxr {
+  color: #f9e42e;
+  font-size: 3em;
+  font-weight: 800;
+  text-align: center;
+  padding: 0px;
+}
+
+#icons{
+  list-style-type: none;
+  overflow: hidden;
+  margin: auto;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+#icons li{
+  display: inline;
+}
+
+#icons li a{
+  display: inline-block;
+  color: white;
+  padding: 0px 15px;
+  text-decoration: none;
+}
+
+#icons li a:hover {
+  color: #606161;
+}
+
+#icons li a:active {
+  color: #383939;
+}
+
+.copyright {
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+}
