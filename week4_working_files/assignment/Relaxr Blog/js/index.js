@@ -42,4 +42,10 @@ $(document).ready(function(){
       $(".read-btn-2").show();
         event.preventDefault();
     });
+
+    $(".learn-btn").click(function(event){
+      $(".about-side-hide").slideDown();
+      $(".learn-btn").hide();
+        event.preventDefault();
+    });
 });

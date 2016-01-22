@@ -167,14 +167,7 @@ aside {
   color: #0e5277;
 }
 
-.about-side {
-  font-size: 2.2em;
-  font-weight: 300;
-  color: #033048;
-  line-height: 25px;
-}
-
-#learnmoretext {
+.about-side, .about-side-hide {
   font-size: 2.2em;
   font-weight: 300;
   color: #033048;
@@ -182,23 +175,23 @@ aside {
 }
 
 .learn-btn {
-  margin: 5px 0 50px 0;
-}
-
-.learn-btn a {
   font-size: 2.2em;
   font-weight: 600;
   color: #033048;
 }
 
-.learn-btn a:hover {
+.learn-btn:hover {
   cursor: pointer;
   color: #1285c3;
 }
 
-.learn-btn a:active {
+.learn-btn:active {
   cursor: pointer;
   color: #0e5277;
+}
+
+.Ad {
+  padding-top: 50px;
 }
 
 .description-hide-1, .description-hide-2, .readless-btn-1, .readless-btn-2, .about-side-hide {
